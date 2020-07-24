@@ -1,0 +1,303 @@
+*{
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.top-left{
+    width: 20%;
+    float: left;
+}
+.nav{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 5px;
+    font-size: 16px;
+}
+a:hover{
+    opacity: 0.6;
+}
+.button{
+     border: 0;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(12, 88%, 59%);
+    float: right;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px grey;
+}
+.top-right{
+    width: 20%;
+    float: left;
+}
+.top::after{
+    clear: both;
+    content: " ";
+    display: table;
+}
+.next-left{
+    width: 40%;
+    float: left;
+}
+#lint{
+    float: left;
+}
+.next{
+    margin-top: 2rem;
+}
+.next-right{
+    width: 60%;
+    float: left;
+}
+.next::after{
+    clear: both;
+    content: " ";
+    display: table;
+}
+.image{
+    width: 70%;
+    float: right;
+    
+}
+.first{
+    background-image: url('../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: top -106%right -8%;
+    background-size: 45%;
+    padding: 5% 7%;
+}
+.second-left{
+    width: 45%;
+    float: left;
+}
+.second-right{
+    width: 55%;
+    float: left;
+}
+.second::after{
+    clear: both;
+    display: table;
+    content: " ";
+}
+.second{
+    padding: 5% 7%;
+    background-image: url(../images/bg-tablet-pattern.svg);
+    background-position:bottom -1500% left -41%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+
+}
+h2{
+    text-align: center;
+    margin-block-end: 5%;
+}
+h6{
+    text-align: center;
+    margin-block-start: 10%;
+}
+.card1{
+    margin-inline-end: 5%;
+    width: 30%;
+    float: left;
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+}
+.card2{
+    margin-inline-end: 5%;
+    width: 30%;
+    float: left;
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+}
+.card3{
+    width: 30%;
+    float: left;
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+}
+.cards::after{
+    clear: both;
+    display: table;
+    content: " ";
+}
+.btn-center{
+    text-align: center;
+}
+.avat{
+    text-align: center;
+    position: relative;
+}
+.mybtn{
+    border: 0;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(12, 88%, 59%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px grey;
+}
+.mybto{
+    border: 0;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(12, 88%, 59%);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.footer1{
+    margin: 10% 0 0 0;
+    padding: 3% 10%;
+    background-color: hsl(12, 88%, 59%);
+    background-position: top 55% right 75%;
+    background-image: url(../images/bg-simplify-section-desktop.svg);
+}
+.footer1-left{
+    width: 30%;
+    float: left;
+    color: hsl(0, 0%, 98%);
+}
+.footer1-right{
+    width: 70%;
+    float: left;
+    padding-top: 5%;
+}
+.footer1::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.bacok{
+    border: 0;
+    color: hsl(12, 88%, 59%);
+    background-color: hsl(0, 0%, 98%);
+    float: right;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#back{
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 20px;
+    border: 0;
+    color: hsl(12, 88%, 59%);
+    padding: 10px 20px;
+    box-shadow: 2px 2px 6px grey;
+}
+.footer2{
+    background-color: hsl(233, 12%, 13%);
+}
+.manage{
+    width: 70px;
+    position: absolute;
+    top: -30px;
+    left: 42%;
+}
+p{
+    color: hsl(227, 12%, 61%)
+}
+.sads{
+    width: 25%;
+    float: left;
+}
+.saad::after{
+    clear: both;
+    display: table;
+    content: " ";
+}
+.divide-page{
+    width: 50%;
+    float: left;
+}
+.side{
+    width: 50%;
+    float: left;
+}
+.divide-page::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.mybtn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+ol{
+    list-style-type: decimal-leading-zero;
+}
+.num{
+    border-radius: 32px;
+    color: honeydew;
+    background-color: hsl(12, 88%, 59%);
+    padding: 4px 10px;
+    height: 20px;
+}
+.footer2{
+    padding: 3% 4%; 
+    color: hsl(0, 0%, 98%)
+}
+.img-bottom{
+    color: hsl(0, 0%, 98%);
+}
+.img-bottom:hover{
+    color: hsl(12, 88%, 59%);
+}
+ul{
+    list-style: none;
+}
+h1 h2 h3 h6{
+    color: hsl(233, 12%, 13%);
+}
+.img-responsive:hover{
+    color: hsl(12, 88%, 59%);
+}
+
+
+@media screen and (max-width: 375px){
+  .nav{
+      display: none;
+  } 
+  .top-right{
+      display: none;
+  }
+  .next-left{
+      width: 100%;
+      text-align: center;
+  }
+  .next-right{
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/bg-tablet-pattern.svg); 
+  }
+.second-left{
+    width: 100%;
+    text-align: center;
+}
+.second-right{
+    width: 100%;
+    text-align: center;
+}
+.card1{
+    width: 100%;  
+}
+.card2{
+    display: none;
+}
+.card3{
+    display: none;
+}
+.footer1-left{
+    width: 100%;
+    text-align: center;
+}
+.footer1-right{
+    width: 100%;
+    text-align: center;
+}
+.sads{
+    width: 100%;
+    text-align: center;
+}
+.divide-page{
+    width: 100%;
+}
+}
