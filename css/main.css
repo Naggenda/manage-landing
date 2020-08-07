@@ -1,14 +1,14 @@
 *{
     font-family: 'Be Vietnam', sans-serif;
 }
-
-.top-left{
-    width: 20%;
-    float: left;
+.top{
+   display: flex;
+   justify-content: space-between;
 }
+
+
 .nav{
-    width: 60%;
-    float: left;
+    
     text-align: center;
 }
 a{
@@ -29,44 +29,25 @@ a:hover{
     border-radius: 20px;
     box-shadow: 2px 2px 6px grey;
 }
-.top-right{
-    width: 20%;
-    float: left;
-}
-.top::after{
-    clear: both;
-    content: " ";
-    display: table;
-}
-.next-left{
-    width: 40%;
-    float: left;
-}
+
 #lint{
     float: left;
 }
 .next{
     margin-top: 2rem;
+    display: flex;
 }
-.next-right{
-    width: 60%;
-    float: left;
-}
-.next::after{
-    clear: both;
-    content: " ";
-    display: table;
-}
+
 .image{
-    width: 70%;
+    width: 100%;
     float: right;
     
 }
 .first{
     background-image: url('../images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
-    background-position: top -106%right -8%;
-    background-size: 45%;
+    background-position: top 177%right -45%;
+    background-size: 60%;
     padding: 5% 7%;
 }
 .second-left{
@@ -251,13 +232,47 @@ h1 h2 h3 h6{
     color: hsl(12, 88%, 59%);
 }
 
+.nav-links-hidden{
+    display: none;
+    background-color: aquamarine;
+    text-align: center;
+    position: absolute;
+    top: 24%;
+    left: 5%;
+    width: 90%;
+    height: 250px;
+}
+.btn-close{
+    display: none;
+}
+.btn-start{
+    display: none;
+}
 
+.btn{
+    background-color: white;
+    border: none;
+}
 @media screen and (max-width: 375px){
+    .first{
+        background-position: top -14% right -99%;
+        background-size: 95%;
+    }
   .nav{
       display: none;
   } 
   .top-right{
       display: none;
+  }
+  .btn-start{
+      display: block;
+  }
+  .next{
+      flex-direction: column-reverse;
+  }
+  li{
+      list-style: none;
+      padding-top: 25px;
   }
   .next-left{
       width: 100%;

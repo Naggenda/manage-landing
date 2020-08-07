@@ -28,7 +28,6 @@ Vary Light Gray: hsl(0, 0%, 98%)
 - Font size: 16px
 
 ### Font
-
 - Family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam)
 - Weights: 400, 500, 700
 
