@@ -253,7 +253,7 @@ h1 h2 h3 h6{
     background-color: white;
     border: none;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 425px){
     .first{
         background-position: top -14% right -99%;
         background-size: 95%;
